@@ -21,5 +21,35 @@ public class Pergunta {
     @JsonProperty("vistoria")
     private Long vistoria;
 
-    // Getters e Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getPergunta() {
+        return pergunta;
+    }
+
+    public void setPergunta(String pergunta) {
+        this.pergunta = pergunta;
+    }
+
+    public String getResposta() {
+        return resposta;
+    }
+
+    public void setResposta(String resposta) {
+        this.resposta = resposta;
+    }
+
+    public Long getVistoria() {
+        return vistoria;
+    }
+
+    public void setVistoria(Long vistoria) {
+        this.vistoria = vistoria;
+    }
 }
